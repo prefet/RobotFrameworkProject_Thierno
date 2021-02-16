@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210216 21:37:40.265" generator="Robot 3.2.2 (Python 2.7.18 on win32)">
+<suite source="D:\RobotFrameWorkProject" id="s1" name="RobotFrameWorkProject">
+<suite source="D:\RobotFrameWorkProject\DossiersTest" id="s1-s1" name="DossiersTest">
+<suite source="D:\RobotFrameWorkProject\DossiersTest\TestSuite1Debut.robot" id="s1-s1-s1" name="TestSuite1Debut">
+<test id="s1-s1-s1-t1" name="SeliniumScreenshot">
+<kw name="ConnexionBDFDM">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://wmutpf1r1.dc1lan.local:10712/twst-ihm/BDFDM/FRA</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210216 21:37:40.641" level="INFO">Opening browser 'chrome' to base url 'https://wmutpf1r1.dc1lan.local:10712/twst-ihm/BDFDM/FRA'.</msg>
+<status status="PASS" endtime="20210216 21:37:44.536" starttime="20210216 21:37:40.641"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" endtime="20210216 21:37:44.542" starttime="20210216 21:37:44.537"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=LOG_LIB_003</arg>
+<arg>nr_bdf_adm@yopmail.com</arg>
+</arguments>
+<msg timestamp="20210216 21:37:44.543" level="INFO">Typing text 'nr_bdf_adm@yopmail.com' into text field 'id=LOG_LIB_003'.</msg>
+<status status="PASS" endtime="20210216 21:37:44.807" starttime="20210216 21:37:44.542"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20210216 21:37:46.808" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210216 21:37:46.808" starttime="20210216 21:37:44.808"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=LOG_LIB_004</arg>
+<arg>D72UMyJ#e*</arg>
+</arguments>
+<msg timestamp="20210216 21:37:46.809" level="INFO">Typing password into text field 'id=LOG_LIB_004'.</msg>
+<msg timestamp="20210216 21:37:46.859" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210216 21:37:46.912" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" endtime="20210216 21:37:46.912" starttime="20210216 21:37:46.808"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20210216 21:37:48.913" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210216 21:37:48.913" starttime="20210216 21:37:46.912"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>id=LOG_LIB_005</arg>
+</arguments>
+<msg timestamp="20210216 21:37:48.915" level="INFO">Clicking element 'id=LOG_LIB_005'.</msg>
+<status status="PASS" endtime="20210216 21:37:48.981" starttime="20210216 21:37:48.914"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20210216 21:37:53.983" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20210216 21:37:53.983" starttime="20210216 21:37:48.981"></status>
+</kw>
+<status status="PASS" endtime="20210216 21:37:53.983" starttime="20210216 21:37:40.640"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20210216 21:37:54.109" starttime="20210216 21:37:53.984"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210216 21:37:57.110" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20210216 21:37:57.110" starttime="20210216 21:37:54.109"></status>
+</kw>
+<kw name="Capture Element Screenshot" library="SeleniumLibrary">
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/div/div[1]/div/div[3]</arg>
+<arg>D:/RobotFrameWorkProject/DossiersTest/captureElement.png</arg>
+</arguments>
+<msg timestamp="20210216 21:37:57.398" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="DossiersTest/captureElement.png"&gt;&lt;img src="DossiersTest/captureElement.png" width="400px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20210216 21:37:57.398" starttime="20210216 21:37:57.111"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210216 21:38:00.400" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20210216 21:38:00.401" starttime="20210216 21:37:57.399"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>id=ACC_LIB_014</arg>
+</arguments>
+<msg timestamp="20210216 21:38:00.407" level="INFO">Clicking element 'id=ACC_LIB_014'.</msg>
+<status status="PASS" endtime="20210216 21:38:00.492" starttime="20210216 21:38:00.403"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20210216 21:38:02.494" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210216 21:38:02.495" starttime="20210216 21:38:00.493"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=GDC_LIB_003</arg>
+<arg>test</arg>
+</arguments>
+<msg timestamp="20210216 21:38:02.496" level="INFO">Typing text 'test' into text field 'id=GDC_LIB_003'.</msg>
+<status status="PASS" endtime="20210216 21:38:02.587" starttime="20210216 21:38:02.495"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20210216 21:38:04.589" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210216 21:38:04.591" starttime="20210216 21:38:02.588"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=GDC_LIB_006</arg>
+<arg>test</arg>
+</arguments>
+<msg timestamp="20210216 21:38:04.593" level="INFO">Typing text 'test' into text field 'id=GDC_LIB_006'.</msg>
+<status status="PASS" endtime="20210216 21:38:04.671" starttime="20210216 21:38:04.592"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20210216 21:38:06.672" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210216 21:38:06.673" starttime="20210216 21:38:04.671"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>id=BTN_SEARCH</arg>
+</arguments>
+<msg timestamp="20210216 21:38:06.680" level="INFO">Clicking element 'id=BTN_SEARCH'.</msg>
+<status status="PASS" endtime="20210216 21:38:06.740" starttime="20210216 21:38:06.676"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20210216 21:38:11.741" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20210216 21:38:11.742" starttime="20210216 21:38:06.741"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>D:/RobotFrameWorkProject/DossiersTest/capturePage.png</arg>
+</arguments>
+<msg timestamp="20210216 21:38:12.083" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="DossiersTest/capturePage.png"&gt;&lt;img src="DossiersTest/capturePage.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20210216 21:38:12.084" starttime="20210216 21:38:11.743"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20210216 21:38:12.333" starttime="20210216 21:38:12.084"></status>
+</kw>
+<status status="PASS" endtime="20210216 21:38:12.334" critical="yes" starttime="20210216 21:37:40.639"></status>
+</test>
+<status status="PASS" endtime="20210216 21:38:12.334" starttime="20210216 21:37:40.351"></status>
+</suite>
+<status status="PASS" endtime="20210216 21:38:12.336" starttime="20210216 21:37:40.347"></status>
+</suite>
+<status status="PASS" endtime="20210216 21:38:12.338" starttime="20210216 21:37:40.327"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="RobotFrameWorkProject" pass="1">RobotFrameWorkProject</stat>
+<stat fail="0" id="s1-s1" name="DossiersTest" pass="1">RobotFrameWorkProject.DossiersTest</stat>
+<stat fail="0" id="s1-s1-s1" name="TestSuite1Debut" pass="1">RobotFrameWorkProject.DossiersTest.TestSuite1Debut</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
