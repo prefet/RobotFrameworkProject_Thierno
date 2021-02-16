@@ -21,6 +21,9 @@ MyFirstTest
    Sleep  5                 
     Close All Browsers
     
+MySecondeTest
+    Log To Console    Test sur Github    
+    
 *** Test Cases ***
 SeliniumScreenshot
     ConnexionBDFDM
